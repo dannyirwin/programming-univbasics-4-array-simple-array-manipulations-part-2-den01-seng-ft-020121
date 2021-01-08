@@ -10,4 +10,14 @@ def using_uniq(arr)
   arr.uniq
 end 
 
-def
+def using_flatten(arr)
+  arr.flatten
+end 
+
+def using_delete(arr, str)
+  arr.delete(str)
+end
+
+def using_delete_at(i)
+  arr.delete_at(i)
+end
